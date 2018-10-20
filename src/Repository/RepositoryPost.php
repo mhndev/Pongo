@@ -5,7 +5,6 @@ use mhndev\Pongo\Entity\EntityPost;
 use mhndev\Pongo\Exception\exEntityNotFound;
 use mhndev\Pongo\MongoHelper;
 use MongoDB\BSON\ObjectId;
-use MongoDB\BSON\UTCDateTime;
 use MongoDB\Collection;
 use MongoDB\Database;
 
