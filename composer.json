@@ -1,0 +1,39 @@
+{
+  "name": "mhndev/Pongo",
+  "description": "working with mongodb in php, no ODM, no Data Mapper just use mongo json queries itself",
+  "keywords": [ "php-mongo", "mongo", "mongodb" ],
+  "homepage": "https://github.com/mhndev/Pongo",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Majid Abdolhosseini",
+      "email": "majid@mhndev.com",
+      "homepage": "http://www.mhndev.com/"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "mhndev\\Pongo\\"  : "src"
+    }
+  },
+
+
+  "require": {
+    "php": ">=7.2.0",
+    "ext-json": "*",
+    "ext-mongodb": "*",
+    "mongodb/mongodb": "^1.4"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": ">7.3"
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+
+}
