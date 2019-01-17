@@ -1,5 +1,5 @@
 {
-  "name": "mhndev/Pongo",
+  "name": "mhndev/pongo",
   "description": "working with mongodb in php, no ODM, no Data Mapper just use mongo json queries itself",
   "keywords": [ "php-mongo", "mongo", "mongodb" ],
   "homepage": "https://github.com/mhndev/Pongo",
@@ -20,7 +20,7 @@
 
 
   "require": {
-    "php": ">=7.2.0",
+    "php": ">=7.1.0",
     "ext-json": "*",
     "ext-mongodb": "*",
     "mongodb/mongodb": "^1.4"
